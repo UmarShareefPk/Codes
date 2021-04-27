@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Printing</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+.title-tip{
+  position: relative;
+}
+.title-tip:hover::before{
+  content: attr(data-tooltip);
+  background-color: black;
+  color: #efefef;
+  width: 250px;
+  position:absolute;
+  top: 30px;
+  padding: 15px;
+  border-radius: 10%;
+}
+
+
+</style>
+
+</head>
+<body>
+<div class="container text-center">
+  <a href="#" class="title-tip" data-tooltip="Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, est dolores! Eveniet illum assumenda perspiciatis corrupti iure hic laborum eaque repellendus quasi ipsam, dignissimos modi, tenetur exercitationem laboriosam unde rem?" >
+    Lorem ipsum dolor sit amet....
+  </a>
+</div>
+
+</body>
+</html>
+
+
+
