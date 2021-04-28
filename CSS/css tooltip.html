@@ -8,20 +8,56 @@
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <style>
-.title-tip{
-  position: relative;
-}
-.title-tip:hover::before{
-  content: attr(data-tooltip);
-  background-color: black;
-  color: #efefef;
-  width: 250px;
-  position:absolute;
-  top: 30px;
-  padding: 15px;
-  border-radius: 10%;
-}
+	.title-tip{
+	  position: relative;
+	}
+	.title-tip:hover::before{
+	  content: attr(data-tooltip);
+	  background-color: black;
+	  color: #efefef;
+	  width: 250px;
+	  position:absolute;
+	  top: 30px;
+	  padding: 15px;
+	  border-radius: 15%;
+	   animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 1s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+	}
 
+	@keyframes fadein {
+		from {
+			opacity:0;
+		}
+		to {
+			opacity:1;
+		}
+	}
+	@-moz-keyframes fadein { /* Firefox */
+		from {
+			opacity:0;
+		}
+		to {
+			opacity:1;
+		}
+	}
+	@-webkit-keyframes fadein { /* Safari and Chrome */
+		from {
+			opacity:0;
+		}
+		to {
+			opacity:1;
+		}
+	}
+	@-o-keyframes fadein { /* Opera */
+		from {
+			opacity:0;
+		}
+		to {
+			opacity: 1;
+		}
+	}	
 
 </style>
 
