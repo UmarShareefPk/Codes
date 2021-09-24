@@ -1,0 +1,30 @@
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.csprojResolveAssemblyReference.cache
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.UI.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.UI.pdb
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\AjaxControlToolkit.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.BAL.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.CL.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.DAL.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\itextsharp.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.BAL.pdb
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.CL.pdb
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.DAL.pdb
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.pdb
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.UI.dll.config
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.UI.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.UI.pdb
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\AjaxControlToolkit.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.BAL.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.CL.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.DAL.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\itextsharp.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.BAL.pdb
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.CL.pdb
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.DAL.pdb
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\bin\BusTicketingSystem.DAL.dll.config
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.csprojAssemblyReference.cache
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.csproj.CoreCompileInputs.cache
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.csproj.CopyComplete
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.UI\obj\Debug\BusTicketingSystem.UI.pdb

@@ -1,0 +1,5 @@
+2015/08/14-15:26:27.650 12ec Recovering log #22
+2015/08/14-15:26:27.717 12ec Level-0 table #24: started
+2015/08/14-15:26:28.256 12ec Level-0 table #24: 192956 bytes OK
+2015/08/14-15:26:28.487 12ec Delete type=0 #22
+2015/08/14-15:26:28.487 12ec Delete type=3 #20

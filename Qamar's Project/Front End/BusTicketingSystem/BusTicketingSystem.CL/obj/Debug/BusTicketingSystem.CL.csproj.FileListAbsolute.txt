@@ -1,0 +1,10 @@
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.CL\bin\Debug\BusTicketingSystem.CL.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.CL\bin\Debug\BusTicketingSystem.CL.pdb
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.CL\obj\Debug\BusTicketingSystem.CL.dll
+C:\Users\ushareef\Desktop\BusTicketingSystem\BusTicketingSystem.CL\obj\Debug\BusTicketingSystem.CL.pdb
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.CL\bin\Debug\BusTicketingSystem.CL.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.CL\bin\Debug\BusTicketingSystem.CL.pdb
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.CL\obj\Debug\BusTicketingSystem.CL.csprojAssemblyReference.cache
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.CL\obj\Debug\BusTicketingSystem.CL.csproj.CoreCompileInputs.cache
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.CL\obj\Debug\BusTicketingSystem.CL.dll
+C:\Users\umar\Desktop\Qamar's Project\Front End\BusTicketingSystem\BusTicketingSystem.CL\obj\Debug\BusTicketingSystem.CL.pdb

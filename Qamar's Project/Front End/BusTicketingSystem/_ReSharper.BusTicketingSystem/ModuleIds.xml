@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="9223F2F7-3EDB-486C-8658-ECA6E4ACBAFF" ModuleId="BusTicketingSystem" />
+  <Module PersistentId="FCCB7A79-7675-496E-9871-E4D7C606ABED" ModuleId="BusTicketingSystem.BAL" />
+  <Module PersistentId="C379D757-6582-464E-AA02-331B6D710DF5" ModuleId="BusTicketingSystem.CL" />
+  <Module PersistentId="0158DD97-4CEA-4691-9F0A-587F3CE11C3D" ModuleId="BusTicketingSystem.DAL" />
+  <Module PersistentId="C4CC38C7-AE68-4B5B-902A-C9EE6858834E" ModuleId="BusTicketingSystem.UI" />
+</Modules>

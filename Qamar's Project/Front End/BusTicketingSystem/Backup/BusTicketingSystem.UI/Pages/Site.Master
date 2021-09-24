@@ -1,0 +1,100 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="BusTicketingSystem.UI.Pages.Site" %>
+<%@ Import Namespace="BusTicketingSystem.UI" %>
+<%@ Register TagPrefix="ajaxToolkit" Namespace="AjaxControlToolkit" Assembly="AjaxControlToolkit, Version=3.5.7.429, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title>Bus Ticketing System</title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+  
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+          <ajaxToolkit:ToolkitScriptManager CombineScripts="True" EnableScriptGlobalization="True" EnableScriptLocalization="True" LoadScriptsBeforeUI="True"
+            ID="scriptManger" EnablePartialRendering="True" runat="server">
+        </ajaxToolkit:ToolkitScriptManager>
+    <div class="SiteHeader">
+        Bus Reservation System
+        <span id="logout" style="float: right; margin-right: 20px"  > <a href="Login.aspx" style="color:white !important; font-size: 20px ">Logout </a><asp:LinkButton Visible="False" ID="LinkButton1" runat="server" Text="Logout" OnClick="Logout_Click" style="color:white !important; font-size: 20px "></asp:LinkButton>  </span>
+     <span id="Span1" style="float: left;color: white; font-size: 15px; margin-top: 10px"  > <%= Common.ImportUser()!=null ? "Welcome " + Common.ImportUser().Username : ""  %> </span>
+    
+    </div>
+    <br/> <br/>
+    <div class="mainBody">
+        <div class="menu">
+        <br/>
+        
+        <% if (Common.UserRole() == "Customer")
+           {%>
+                <a href="../Pages/CustomerProfile.aspx"> Profile</a> <br/><br/>
+        <% } %>
+        
+           <% if (Common.UserRole() == "Admin")
+           {%>
+                    <a href="../Pages/News.aspx"> News</a> <br/><br/>
+                    <a href="../Pages/Fares.aspx"> Fares</a> <br/><br/>
+                    <a href="../Pages/AddNewBus.aspx"> Add New Bus</a> <br/><br/>
+                    <a href="../Pages/AllHotels.aspx">Hotels</a> <br/><br/>
+                    <a href="../Pages/AddNewRoute.aspx"> Add Route</a> <br/><br/>
+                    <a href="../Pages/AllCustomers.aspx"> Customers</a> <br/><br/>
+                    <a href="../Pages/AllEmployees.aspx">Employees</a> <br/><br/>
+                    <a href="../Pages/AllTerminals.aspx">Terminals</a> <br/><br/>
+                    <a href="../Pages/Users.aspx"> Users</a> <br/><br/>
+                    <a href="../Pages/CustomersAccounts.aspx"> Customers Accounts</a> <br/><br/>
+        <% } %>
+        
+           <% if (Common.UserRole() == "Call Operator")
+           {%>
+        
+        <% } %>
+        
+           <% if (Common.UserRole() == "Manager")
+           {%>
+                <a href="../Pages/ConfirmReservations.aspx"> Confirm Reservations</a> <br/><br/>
+                <a href="../Pages/CancelReservations.aspx"> Cancel Reservations</a> <br/><br/>
+        
+        <% } %>
+
+           
+         <a href="../Pages/Routes.aspx"> Routes</a> <br/><br/>
+        
+        
+          
+        
+    </div>
+    
+    
+    <div class="ContentHolder">
+       
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="NewsFeed">
+        <h3 style="text-decoration: underline"> News and Updates</h3>
+        <marquee style="height: 53%" scrolldelay="200" behavior="scroll" direction="up">
+            
+            <ul>
+                <% for (int i = 0; i < News.Rows.Count; i++)
+                   { %>
+                <li><%=(i+1) + " - " + News.Rows[i]["News"] %>  <br/> <br/></li>
+                <% } %>
+            </ul></marquee><br/>
+        &nbsp;</div>
+    </div>
+    </form>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $(".SiteHeader").click(function () {
+
+            //window.location = "Home.aspx";
+        });
+    });
+</script>
