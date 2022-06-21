@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a06ee4c4-8869-4805-9ff9-2655e795e6f1": {
+      "ProjectGuid": "a06ee4c4-8869-4805-9ff9-2655e795e6f1",
+      "DisplayName": "WPFUserInterface",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

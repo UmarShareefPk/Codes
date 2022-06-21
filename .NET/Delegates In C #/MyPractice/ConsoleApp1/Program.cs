@@ -6,6 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine(getlastName("Umar"));
+            return;
             Console.WriteLine("Calculating bonus for 60");
             Console.WriteLine();
             var bonus = Library.Bonus(HowToGetMax,30, comment);
@@ -23,6 +26,11 @@ namespace ConsoleApp1
         {
             Console.WriteLine(message);
             Console.WriteLine();
+        }
+
+        public static string getlastName(string firstName!!)
+        {
+            return firstName + " Shareef";
         }
 
     }
